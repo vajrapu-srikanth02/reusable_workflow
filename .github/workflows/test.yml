@@ -13,5 +13,5 @@ jobs:
 
     steps:
     - name: test command
-      uses: ./test/
+      uses: ./test/reuse.yaml
       # run: echo "Hello Github Actions"
