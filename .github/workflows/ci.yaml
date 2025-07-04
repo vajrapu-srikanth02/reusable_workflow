@@ -1,8 +1,8 @@
-name: CI
+name: CI pipeline
 
 on:
-  push: # triggers
-    branches: [ "main" ]  # filters
+  push:
+    branches: [ "main" ]
   pull_request:
     branches:
       - main
