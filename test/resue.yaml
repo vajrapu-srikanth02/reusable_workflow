@@ -1,0 +1,6 @@
+name: reuse workflow
+
+jobs:
+  test:
+    - name: running from reuse workflow
+      run: echo "running from reuse workflow"
