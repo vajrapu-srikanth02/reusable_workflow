@@ -8,10 +8,5 @@ on:
 
 jobs:
   build:
-
-    runs-on: ubuntu-latest
-
-    steps:
-    - name: test command
-      uses: ./.github/workflows/reuse.yaml
+    uses: ./.github/workflows/reuse.yaml
       # run: echo "Hello Github Actions"
