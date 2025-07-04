@@ -12,4 +12,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: checkout
-        run: echo "running in ci pipeline"
+        run: echo "hello i am running in ci pipeline"
