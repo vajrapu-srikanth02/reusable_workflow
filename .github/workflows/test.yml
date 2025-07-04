@@ -8,9 +8,4 @@ on:
 
 jobs:
   build:
-    runs-on: ubuntu-latest
-    steps:
-     - uses: actions/checkout@v4
-  test:
-    # uses: ./.github/workflows/reuse.yaml
-     uses: ./.github/test/reuse1.yaml
+    uses: ./.github/workflows/reuse.yaml
