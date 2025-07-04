@@ -12,9 +12,6 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - name: checkout
-      uses: actions/checkout@v4
-      
     - name: test command
-      uses: ./test/reuse.yaml
+      uses: ./.github/workflows/reuse.yaml
       # run: echo "Hello Github Actions"
