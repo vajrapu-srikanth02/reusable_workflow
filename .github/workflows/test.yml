@@ -13,4 +13,5 @@ jobs:
 
     steps:
     - name: test command
-      run: echo "Hello Github Actions"
+      uses: ./test/
+      # run: echo "Hello Github Actions"
