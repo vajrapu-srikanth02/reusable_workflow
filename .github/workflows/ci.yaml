@@ -1,0 +1,15 @@
+name: CI
+
+on:
+  push: # triggers
+    branches: [ "main" ]  # filters
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: checkout
+        run: running in ci pipeline
